@@ -10,7 +10,13 @@ With my API, users can simply enter XYZ coordinates relative to the turtles star
 This API allows for much more complex scripts to be written in a fraction of the codebase 
 (As my Recursive mining program demonstrates).
 
-functions added include
+An example of a program NOT using the API can be found under logger.lua -- This is a very tedious and redundant method for writing a program, however, this is how base computercraft intended the program to work.
+
+
+
+
+
+FUNCTIONS ADDED INCLUDE:
 
 orient(int n)
 user enters 1,2,3,4 for corresponding sides.
