@@ -12,11 +12,20 @@ This API allows for much more complex scripts to be written in a fraction of the
 
 functions added include
 
-orient(int n)       user enters 1,2,3,4 for corresponding sides.
-go(int n)           go forward n blocks
-up(int n)           go up n blocks
-down(int n)         go down n blocks
-move(int x,y,z)     move to a point XYZ relative to starting position.
+orient(int n)
+user enters 1,2,3,4 for corresponding sides.
+
+go(int n)
+go forward n blocks
+
+up(int n)
+go up n blocks
+
+down(int n)         
+go down n blocks
+
+move(int x,y,z)     
+move to a point XYZ relative to starting position.
 
 
 TURTLE WILL KEEP TRACK OF CURRENT POSITION, negative coordinates will correspond to standard cartesian coordinates.
